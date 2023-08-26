@@ -1,0 +1,22 @@
+Nome: Renan Ferreira Yassumoto
+CPF: 049974661-90
+Curso: Ciência da Computação
+Semestre: 4º
+
+GABARITO ATIVIDADE 03
+
+Questão 02
+Alternativa
+Justificativa:
+
+Questão 03
+Alternativa A
+Justificativa: É verdade pois, adicionando essa linha de código o programador criará uma instância permitindo que os métodos da classe sejam chamados por essa instância
+
+Questão 04
+Alternativa C
+Está correto pois apresenta a definição correta de um objeto que é uma instância de uma classe com seus próprios atributos e pode realizar ações através de seus métodos.
+
+Questão 05
+Alternativa B
+Está correta pois uma das características da POO é justamente permitir que objetos sejam criados para serem reutilizados em diversos contextos, melhorando a eficiência e não sendo necessário escrever o código novamente.
