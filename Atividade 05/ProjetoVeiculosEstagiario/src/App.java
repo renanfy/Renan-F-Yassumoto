@@ -1,12 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        // VALORES QUE NÃO SÃO GLOBAIS
-        // - eixos: int
-        // - pesoLiquido: double
-        // - portas: int
-        // - codigoRenavam: string
-
         Caminhao Caminhao = new Caminhao();
         Caminhao.setCodigo(98765);
         Caminhao.setNome("Caminhão de Carga 123");
@@ -33,5 +27,107 @@ public class App {
         Caminhao.setPortas(2);
         Caminhao.setCodigoRenavam("12345678901");
         Caminhao.imprimir();
+
+        Aviao Aviao = new Aviao();
+        Aviao.setCodigo(100000);
+        Aviao.setNome("Avião Alpha");
+        Aviao.setModelo("Modelo X");
+        Aviao.setCor("Azul");
+        Aviao.setChassi("CH123456");
+        Aviao.setPlaca("ABC-1234");
+        Aviao.setAnoModelo(2023);
+        Aviao.setAnoFabricacao(2022);
+        Aviao.setPesoTotal(15000.50);
+        Aviao.setAssentos(200);
+        Aviao.setRodas(16);
+        Aviao.setFabricante("Fabricante A");
+        Aviao.setPotencia(400.5);
+        Aviao.setTipoCombustivel("Querosene");
+        Aviao.setNomeProprietario("Maria Silva");
+        Aviao.setEstadoUF("SP");
+        Aviao.setCidadeUF("São Paulo");
+        Aviao.setTipoVeiculo("Avião");
+        Aviao.setQtdeMotores(2);
+        Aviao.setQtdeOcupantes(150);
+        Aviao.setPesoLiquido(14000.75);
+        Aviao.setPortas(4);
+        Aviao.imprimir();
+
+        Carro Carro = new Carro();
+        Carro.setCodigo(100000);
+        Carro.setNome("Carro Alpha");
+        Carro.setModelo("Modelo Y");
+        Carro.setCor("Vermelho");
+        Carro.setChassi("CH987654");
+        Carro.setPlaca("XYZ-5678");
+        Carro.setAnoModelo(2023);
+        Carro.setAnoFabricacao(2013);
+        Carro.setPesoTotal(1500.75);
+        Carro.setAssentos(5);
+        Carro.setRodas(4);
+        Carro.setFabricante("Fabricante B");
+        Carro.setPotencia(150.0);
+        Carro.setTipoCombustivel("Gasolina");
+        Carro.setNomeProprietario("João Silva");
+        Carro.setEstadoUF("SP");
+        Carro.setCidadeUF("São Paulo");
+        Carro.setTipoVeiculo("Carro");
+        Carro.setQtdeMotores(1);
+        Carro.setQtdeOcupantes(5);
+        Carro.setEixos(2);
+        Carro.setPortas(4);
+        Carro.setCodigoRenavam("12345678901");
+        Carro.imprimir();
+
+        Motocicleta Motocicleta = new Motocicleta();
+        Motocicleta.setCodigo(100000);
+        Motocicleta.setNome("Motocicleta Delta");
+        Motocicleta.setModelo("Modelo Z");
+        Motocicleta.setCor("Preto");
+        Motocicleta.setChassi("CH987654");
+        Motocicleta.setPlaca("ABC-1234");
+        Motocicleta.setAnoModelo(2023);
+        Motocicleta.setAnoFabricacao(2022);
+        Motocicleta.setPesoTotal(500.0);
+        Motocicleta.setAssentos(2);
+        Motocicleta.setRodas(2);
+        Motocicleta.setFabricante("Fabricante C");
+        Motocicleta.setPotencia(50.0);
+        Motocicleta.setTipoCombustivel("Gasolina");
+        Motocicleta.setNomeProprietario("Maria Silva");
+        Motocicleta.setEstadoUF("SP");
+        Motocicleta.setCidadeUF("São Paulo");
+        Motocicleta.setTipoVeiculo("Motocicleta");
+        Motocicleta.setQtdeMotores(1);
+        Motocicleta.setQtdeOcupantes(2);
+        Motocicleta.setCodigoRenavam("9876543210");
+        Motocicleta.imprimir();
+
+        Onibus Onibus = new Onibus();
+        Onibus.setCodigo(100000);
+        Onibus.setNome("Ônibus XYZ");
+        Onibus.setModelo("Modelo A");
+        Onibus.setCor("Azul");
+        Onibus.setChassi("1000000");
+        Onibus.setPlaca("10000");
+        Onibus.setAnoModelo(2023);
+        Onibus.setAnoFabricacao(2022);
+        Onibus.setPesoTotal(20000.0);
+        Onibus.setAssentos(40);
+        Onibus.setRodas(6);
+        Onibus.setFabricante("Fabricante B");
+        Onibus.setPotencia(400.0);
+        Onibus.setTipoCombustivel("Diesel");
+        Onibus.setNomeProprietario("Proprietário ABC");
+        Onibus.setEstadoUF("SP");
+        Onibus.setCidadeUF("São Paulo");
+        Onibus.setTipoVeiculo("Ônibus");
+        Onibus.setQtdeMotores(1);
+        Onibus.setQtdeOcupantes(20);
+        Onibus.setEixos(4);
+        Onibus.setPesoLiquido(18000.0);
+        Onibus.setPortas(2);
+        Onibus.setCodigoRenavam("12345678901");
+        Onibus.imprimir();
     }
 }
